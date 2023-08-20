@@ -1,0 +1,60 @@
+List : là một collection có thứ tự, có thể thay đổi. Cho phép chứa dữ liệu trùng lặp.
+Tuple : là một collection có thứ tự, không thể thay đổi. Cho phép chứa dữ liệu trùng lặp.
+Set : là một collection không có thứ tự, không có chỉ mục. Không cho phép chứa dữ liệu trùng lặp.
+Dictionary : là một collection không có thứ tự, có thể thay đổi và lập chỉ mục. Không cho phép chứa dữ liệu trùng lặp.
+#"1 key có thể lưu nhiều value giống nhau "
+#"sử dụng dictionary khi muốn truy cập vào 1 phần tử đã xác định trước và cụ thể"
+len(dictionary) - Trả về số mục trong từ điển.
+
+cho khóa, trong từ điển - Lặp lại từng khóa trong từ điển.
+
+cho khóa, giá trị trong dictionary.items() - Lặp lại từng cặp khóa, giá trị trong từ điển.
+
+nếu khóa trong từ điển - Kiểm tra xem một khóa có trong từ điển hay không.
+
+dictionary[key] - Truy cập một giá trị bằng cách sử dụng khóa được liên kết từ một từ điển.
+
+dictionary[key] = value - Đặt giá trị được liên kết với khóa.
+
+del dictionary[key] - Xóa một giá trị bằng cách sử dụng khóa được liên kết khỏi từ điển.
+
+
+
+
+
+dictionary.get(key, default) - Trả về giá trị tương ứng với một khóa hoặc giá trị mặc định nếu không có khóa được chỉ định.
+
+dictionary.keys() - Trả về một chuỗi chứa các khóa trong từ điển.
+
+dictionary.values() - Trả về một chuỗi chứa các giá trị trong từ điển.
+
+dictionary[key].append(value) - Nối một giá trị mới cho một khóa hiện có.
+
+dictionary.update(other_dictionary) - Cập nhật từ điển với các mục từ từ điển khác. Các mục hiện có được cập nhật; các mục mới được thêm vào.
+
+dictionary.clear() - Xóa tất cả các mục khỏi từ điển.
+
+dictionary.copy() - Tạo một bản sao của từ điển.
+Strings:
+
+Text Processing: Strings are commonly used for text processing tasks such as parsing, searching, and manipulating textual data. This can include tasks like data extraction, regular expression matching, and text analysis.
+
+Encryption and Hashing: Strings are crucial for implementing encryption algorithms and hashing functions used in data security and cryptography.
+
+Natural Language Processing: Strings are extensively used in natural language processing tasks, such as sentiment analysis, language translation, and chatbot development.
+
+Lists:
+
+Data Storage and Retrieval: Lists can be used to store and organize data, making it easy to retrieve and manipulate information. For example, a list of user profiles or a list of products in an e-commerce system.
+
+Sorting and Filtering: Lists can be sorted or filtered based on specific criteria, allowing you to perform operations like finding the highest or lowest values, removing duplicates, or extracting specific subsets of data.
+
+Task Management: Lists can be used to manage tasks or to-do lists in applications, allowing users to add, update, and remove tasks as needed.
+
+Dictionaries:
+
+Key-Value Storage: Dictionaries provide an efficient way to store and retrieve data based on a unique key. They can be used for various purposes, such as caching, configuration management, and database indexing.
+
+Data Aggregation: Dictionaries can be used to aggregate data by grouping related information together. For example, in data analysis or reporting, dictionaries can be used to summarize data based on different categories or dimensions.
+
+Object Representation: Dictionaries can represent objects with their attributes and properties. This is particularly useful in scenarios where data needs to be serialized, such as in APIs or database interactions.
