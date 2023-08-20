@@ -13,3 +13,4 @@ print(" cách mệnh giá của tiền cần rút là :")
 for i in range(len(so_to_tien)):
     print(so_to_tien[i], "tờ", menh_gia[i], "đồng")
 #cái này test thôi nha mấy cha
+#test git hub
